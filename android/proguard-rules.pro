@@ -24,6 +24,10 @@
 -dontwarn android.support.**
 -dontwarn com.badlogic.gdx.backends.android.AndroidFragmentApplication
 
+# Groovy Console is not needed on Android and causes issues with R8 NestMates
+-dontwarn groovy.console.ui.**
+-dontwarn groovy.ui.**
+
 # Needed by the gdx-controllers official extension.
 -keep class com.badlogic.gdx.controllers.android.AndroidControllers
 

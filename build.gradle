@@ -7,7 +7,7 @@ buildscript {
     maven { url = 'https://central.sonatype.com/repository/maven-snapshots/' }
   }
   dependencies {
-    classpath 'com.android.tools.build:gradle:9.0.1'
+    classpath 'com.android.tools.build:gradle:9.1.0-alpha05'
 
   }
 }
@@ -27,8 +27,7 @@ allprojects {
 
 configure(subprojects - project(':android')) {
   apply plugin: 'java-library'
-  apply plugin: 'groovy'
-  java.sourceCompatibility = 11
+  java.sourceCompatibility = 21
 
   // From https://lyze.dev/2021/04/29/libGDX-Internal-Assets-List/
   // The article can be helpful when using assets.txt in your project.
