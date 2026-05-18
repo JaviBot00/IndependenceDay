@@ -1,0 +1,31 @@
+sprites.png
+size: 512, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+player
+  bounds: 2, 2, 48, 30
+enemy_a
+  bounds: 52, 2, 36, 27
+  index: 0
+enemy_a
+  bounds: 90, 2, 36, 27
+  index: 1
+enemy_b
+  bounds: 128, 2, 36, 27
+  index: 0
+enemy_b
+  bounds: 166, 2, 36, 27
+  index: 1
+enemy_c
+  bounds: 204, 2, 36, 27
+  index: 0
+enemy_c
+  bounds: 242, 2, 36, 27
+  index: 1
+ufo
+  bounds: 280, 2, 51, 24
+explosion
+  bounds: 333, 2, 36, 27
+pixel
+  bounds: 371, 2, 1, 1
